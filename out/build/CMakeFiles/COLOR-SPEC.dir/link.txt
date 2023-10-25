@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/COLOR-SPEC.dir/color-spec.cpp.o -o COLOR-SPEC 

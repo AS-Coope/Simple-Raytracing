@@ -1,0 +1,3 @@
+/home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/out/build/CMakeFiles/COLOR-SPEC.dir
+/home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/out/build/CMakeFiles/edit_cache.dir
+/home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/out/build/CMakeFiles/rebuild_cache.dir
