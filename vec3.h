@@ -4,14 +4,13 @@
 #include <cmath>
 #include <iostream>
 
-class vec3
-{
+class vec3{
     public:
         double e[3];
 
         // constructors with initializer lists
-        vec3(): e{0,0,0} {}
-        vec3(double e0, double e1, double e2): {e0, e1, e2} {}
+        vec3() : e{0,0,0} {}
+        vec3(double e0, double e1, double e2) : e{e0, e1, e2} {}
 
         // getter functions for each of the 3 dimensions
         double x() const {
@@ -31,10 +30,12 @@ class vec3
         double operator[](int i) const {
             return e[i];
         } // seems to return a specific dimension based on i (can't this cause an array out of bounds error?)
+        // provides a read only view of the dimension selected (via the const keyword)
 
-        double& operator[](int i) const {
+        double& operator[](int i) {
             return e[i];
         } // seems to return the address of the dimension selected
+        // points directly to the dimension in memory (via the & - ref)hence allowing writing to that dimension
 
         // adding a vector to the current vector
         vec3& operator+=(const vec3& v){
@@ -102,9 +103,9 @@ inline vec3 operator/(const vec3& v, double t){
 }
 
 inline double dot (const vec3& u, const vec3& v){
-    return (u.e[0] * v.e[0]
-          + u.e[1] * v.e[1]
-          + u.e[2] * v.e[2];
+    return   u.e[0] * v.e[0]
+           + u.e[1] * v.e[1]
+           + u.e[2] * v.e[2];
 }
 
 inline vec3 cross (const vec3& u, const vec3& v){
@@ -116,7 +117,7 @@ inline vec3 cross (const vec3& u, const vec3& v){
 }
 
 inline vec3 unit_vector(const vec3& v){
-    return v / v.vector();
+    return v / v.length();
 }
 
 #endif // VEC3_H_INCLUDED
