@@ -1,5 +1,5 @@
 CMakeFiles/COLOR-SPEC.dir/color-spec.cpp.o: \
- /home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/color-spec.cpp \
+ /home/zrcvo/ZrC/Programming-Projects/graphics-programming/Simple-Raytracer/color-spec.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

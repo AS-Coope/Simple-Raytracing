@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm
+CMAKE_SOURCE_DIR = /home/zrcvo/ZrC/Programming-Projects/graphics-programming/Simple-Raytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/out/build
+CMAKE_BINARY_DIR = /home/zrcvo/ZrC/Programming-Projects/graphics-programming/Simple-Raytracer/out/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/COLOR-SPEC.dir/clean
 CMakeFiles/COLOR-SPEC.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/COLOR-SPEC.dir/build.make CMakeFiles/COLOR-SPEC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/COLOR-SPEC.dir/build.make CMakeFiles/COLOR-SPEC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/out/build/CMakeFiles --progress-num=1,2 "Built target COLOR-SPEC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zrcvo/ZrC/Programming-Projects/graphics-programming/Simple-Raytracer/out/build/CMakeFiles --progress-num=1,2 "Built target COLOR-SPEC"
 .PHONY : CMakeFiles/COLOR-SPEC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/COLOR-SPEC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/out/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zrcvo/ZrC/Programming-Projects/graphics-programming/Simple-Raytracer/out/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/COLOR-SPEC.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zrcvo/ZrC/Programming-Projects/graphics-programming/cmake-ppm/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zrcvo/ZrC/Programming-Projects/graphics-programming/Simple-Raytracer/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/COLOR-SPEC.dir/rule
 
 # Convenience name for target.
