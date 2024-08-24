@@ -8,7 +8,7 @@ other OSes, specifically Windows. However, my intention is to get it working on 
 # Objectives
 The objectives are really just the chapter headings:
 - [X] Output an Image
-- [ ] The vec3 Class
+- [X] The vec3 Class
 - [ ] Rays, a Simple Camera, and Background
 - [ ] Adding a Sphere
 - [ ] Surface Normals and Multiple Objects
